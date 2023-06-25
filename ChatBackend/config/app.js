@@ -1,4 +1,4 @@
-requie("dotenv").config();
+require("dotenv").config();
 
 module.exports = {
   appKey: process.env.APP_KEY,
